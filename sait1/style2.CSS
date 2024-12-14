@@ -1,0 +1,44 @@
+body {
+    /*font-family: Arial, sans-serif;*/
+    margin: 0;
+    padding: 30px;
+    background-color: #f4f4f4; /* Основной цвет фона */
+    background-image: url('fon1.gif'); /* Путь к вашему изображению */
+    background-size: cover; /* Покрытие всего экрана */
+    background-position: center; /* Центрирование изображения */
+    font-size: 18px; /* Увеличьте размер шрифта здесь */
+}
+
+
+body {
+    font-family: 'Times New Roman', sans-serif; /* Задает шрифт для всего тела страницы */
+  }
+  
+  .title, .welcome {
+    font-family: 'Times New Roman', serif; /* Задает другой шрифт для заголовков */
+  }
+
+header {
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(57, 166, 202, 0.329); /* Прозрачный фон с альфа-каналом */
+    color: #000000; /* Цвет текста */
+    padding: 50px;
+}
+
+h1 {
+    margin: 0;
+}
+
+section {
+    margin: 20px 0;
+    padding: 20px;
+    background: #ffffff2f;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #01070c;
+}
